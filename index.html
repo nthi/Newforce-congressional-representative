@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+<body>
+    <!-- creating a representative article block -->
+    <article class="repArticle">
+        <!-- creating bio section in the rep article -->
+        <section class="repArticle__bioSection">
+            <!-- adding an image to the bio section -->
+            <img class="repArticle__bioSection__repPhoto" src="https://www.govtrack.us/static/legislator-photos/412487-100px.jpeg" alt="Headshot photo of Representative David McKinley: he has greying hair, a white mustache, and a dark jacket and tie with a white shirt.">
+            <!-- //adding rep name to the bio section -->
+            <h1 class="repArticle__bioSection__repName">Representative David McKinley</h1>
+            <!-- //adding district to the bio section -->
+            <h2 class="repArticle__bioSection__districtInfo">First Congressional District of West Virginia</h2>
+            <!-- //adding party affiliation to the bio section -->
+            <h2 class="repArticle__bioSection__affiliation">Republican</h2>
+            <!-- //adding committees block to the bio section -->
+            <h2 class="repArticle__bioSection__committeesTitle">
+                <!-- //adding unordered list of committees to committees block -->
+                <ul class="repArticle__bioSection__committees">
+                    <!-- //list of links -->
+                    <li class="repArticle__bioSection__committees__listItem">Committee on Energy and Commerce</li>
+                    <li class="repArticle__bioSection__committees__listItem">Subcommittee on Envionment</li>
+                    <li class="repArticle__bioSection__committees__listItem">Subcommittee on Energy</li>
+                    <li class="repArticle__bioSection__committees__listItem">Subcommittee on Oversight and Investigations</li>
+                </ul> 
+            </h2>
+            <!-- //adding legislation block to bio section -->
+            <h2 class="repArticle__bioSection__legislation">
+                <!-- //adding unordered list of links to sponsored and co-sponsored legislation -->
+                <ul class="repArticle__bioSection__legislation__links">
+                    <!-- //list of links -->
+                    <li class="repArticle__bioSection__legislation__links__link"><a href="https://mckinley.house.gov/legislation/sponsoredbills.htm">Sponsored Legislation</a>
+                    </li>
+                    <li class="repArticle__bioSection__legislation__links__link"><a href="https://mckinley.house.gov/legislation/cosponsoredbills.htm">Co-sponsored Legislation</a>
+                    </li>
+                </ul>
+            </h2>
+        </section>
+    </article>
+    
+<!-- In your HTML, create an article element that will serve as your main representative component. Give the element a unique identifier.
+In this component, create a sub-component for basic information using the section element. In this section create elements for the representative's image, name, district info, and political affiliation.
+Beneath the basic information, you will create a sub-component, using a section element, to list any committees the candidate is serving on.
+The last component will hold links to any legislation that your representative has enacted.
+Make sure you use good BEM-style class names for each element in your components. Put a comment above each component explaining what it is. -->
+</body>
+</html>
